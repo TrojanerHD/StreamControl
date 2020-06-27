@@ -5,7 +5,6 @@ export default class WebSocketClient {
   static _ws: WebSocket;
 
   connect(): void {
-    alert(`ws://${window.location.hostname}:${WEBSOCKETPORT.toString()}`)
     WebSocketClient._ws = new WebSocket(
       `ws://${window.location.hostname}:${WEBSOCKETPORT.toString()}`
     );
