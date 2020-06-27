@@ -1,0 +1,11 @@
+{
+    "name": "sc-shared",
+    "version": "0.0.1",
+    "scripts": {
+        "compile": "tsc -p ."
+    },
+    "dependencies": {
+        "cross-env": "^7.0.2"
+    },
+    "main": "index.js"
+}

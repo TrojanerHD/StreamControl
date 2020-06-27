@@ -1,0 +1,15 @@
+{
+  "name": "sc-server",
+  "version": "0.0.1",
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "main": "build/index.js",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "sc-shared": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^7.2.5"
+  }
+}

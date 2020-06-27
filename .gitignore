@@ -1,0 +1,11 @@
+node_modules
+.history
+yarn-error.log
+yarn.lock
+.vscode/settings.json
+client/dist/main.js
+client/dist/main.js.map
+client/dist/**/*.d.ts
+server/build
+shared/*.js
+json/flows.json

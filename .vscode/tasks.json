@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "run:dev",
+      "path": "client/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "client"
+    },
+    {
+      "type": "npm",
+      "script": "compile",
+      "path": "shared/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "shared"
+    },
+    {
+      "type": "npm",
+      "script": "compile",
+      "path": "server/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "server"
+    }
+  ]
+}

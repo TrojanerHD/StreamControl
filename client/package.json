@@ -1,0 +1,24 @@
+{
+  "name": "sc-client",
+  "version": "0.0.1",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "sc-shared": "0.0.1"
+  },
+  "scripts": {
+    "build:dev": "webpack",
+    "watch": "webpack --watch",
+    "run:dev": "webpack && webpack-dev-server"
+  },
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
