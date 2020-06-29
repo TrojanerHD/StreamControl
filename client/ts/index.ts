@@ -3,5 +3,3 @@ import WebSocketClient from './WebSocketClient';
 
 const ws: WebSocketClient = new WebSocketClient();
 ws.connect();
-
-new Buttons(12);

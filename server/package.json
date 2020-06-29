@@ -7,6 +7,7 @@
   "main": "build/index.js",
   "dependencies": {
     "cross-env": "^7.0.2",
+    "obs-websocket-js": "^4.0.1",
     "sc-shared": "0.0.1"
   },
   "devDependencies": {
